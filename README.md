@@ -21,3 +21,13 @@ A successful message will look like this:
 Listening for OSC over UDP. Host: 192.168.0.9, Port: 57121 To start the demo, go to http://localhost:8081 in your web browser.
 
 Your project is now live and ready to use at http://localhost:8081. Open Resolume, and OSC Elate will control your Resolume project in your browser interface.
+
+## Using the functions
+
+Refer to the example functions in the OSC Documentation.
+
+OSC addresses are able to control every item in Resolume. So we get OSC addresses from Resolume and put them in our functions. 
+
+To get OSC addresses from Resolume, enter OSC Shortcut mode (Shortcuts > Edit OSC), and click a control. The Shortcuts panel will show the OSC address.
+
+With these functions, we can design our own interfaces for Resolume and cpntrol the software locally from the browser.
