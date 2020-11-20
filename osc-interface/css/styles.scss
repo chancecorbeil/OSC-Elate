@@ -424,7 +424,8 @@ padding-top: 40px;
   }
 } 
 
-.row.listitem:hover {
+.row.listitem:hover,
+.row.listitem:active {
   color: $colorset-3;
   background-color: $colorset-4;
 }
@@ -436,9 +437,9 @@ padding-top: 40px;
 
 .container code {
   white-space: pre-wrap;
-  background-color: rgba(255, 255, 255, .4);
+  background-color: $colorset-4;
   padding: 10px;
-  color: #777777;
+  color: $colorset-3;
   line-height: 3em;
 }
 
@@ -521,6 +522,11 @@ padding-top: 40px;
     padding-bottom: 0.5em;
     display: inline-block;
     position: relative;
+  }
+
+  .row {
+    max-width: 1000px;
+    margin: 0 auto;
   }
 }
 .interface4 {}
