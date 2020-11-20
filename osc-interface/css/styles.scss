@@ -45,6 +45,16 @@
   .greatvibes {
     font-family: "Greatvibes", serif;
   }
+
+  @font-face {
+    font-family: "Dohyeon";
+    src: url("../fonts/DoHyeon-Regular.ttf");
+    font-weight: normal;
+    font-style: normal; }
+  
+  .dohyeon {
+    font-family: "Dohyeon", serif; }
+
   
 // Colors
 
@@ -100,7 +110,7 @@ $colorset-8: $color-33; // Set 2 - text, Header BG
 }
 
 body {
-  font-family: "Roboto", serif;
+  font-family: "Dohyeon", serif;
   display: flex;
   align-items: center;
   justify-content: center;
