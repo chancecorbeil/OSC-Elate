@@ -30,4 +30,4 @@ OSC addresses are able to control every item in Resolume. So we get OSC addresse
 
 To get OSC addresses from Resolume, enter OSC Shortcut mode (Shortcuts > Edit OSC), and click a control. The Shortcuts panel will show the OSC address.
 
-With these functions, we can design our own interfaces for Resolume and cpntrol the software locally from the browser.
+With these functions, we can design our own interfaces for Resolume and control the software locally from the browser.
