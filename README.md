@@ -1,7 +1,7 @@
 # OSC-Elate
 Control Resolume in your browser with OSC
 
-## Getting Started
+## Getting started
 
 Node.js must be installed on your computer for OSC Elate to work.
 
